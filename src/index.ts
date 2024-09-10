@@ -3,6 +3,8 @@ import { AnalysisService } from '@/service/impl/AnalysisService';
 
 let analysisService: AnalysisService = new AnalysisService();
 
+console.log("weclome use redis");
+
 const server: net.Server = net.createServer((connection: net.Socket) => {
 
     // analysis code
